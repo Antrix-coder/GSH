@@ -22,12 +22,12 @@
 </dict> 
 </plist>
 <computer_group>
-    <name>%group_name%</name>
+    <name>%Bluejeans _Update%</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
             <name>Packages Installed By Sysops</name>
-            <priority>0</priority>
+            <priority>10</priority>
             <and_or>and</and_or>
             <search_type>does not have</search_type>
             <value>%NAME%-%VERSION%.pkg</value>
@@ -36,11 +36,11 @@
 </computer_group>
 <policy>
     <general>
-        <name>%PROD_NAME%</name>
+        <name>%BlueJeans_update testing%</name>
         <enabled>true</enabled>
         <frequency>Ongoing</frequency>
         <category>
-            <name>%POLICY_CATEGORY%</name>
+            <name>%testing%</name>
         </category>
     </general>
         <scope>
